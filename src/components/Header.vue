@@ -2,7 +2,7 @@
   <div class>
     <!-- 面包屑 -->
     <el-breadcrumb separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item :to="{ path: '/login' }">首页</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/user' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item>
         <slot name="main"></slot>
       </el-breadcrumb-item>

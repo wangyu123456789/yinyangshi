@@ -1,0 +1,155 @@
+{
+  "assets": [
+    {
+      "id": 0,
+      "entryname": "壹发布后台(pc)",
+      "describe": "壹发布后台管理，提供公司内部运营、产品使用的管理后台，管理产品上线、活动配置等",
+      "duty": [
+        {
+          "id": 1,
+          "content": "用 vue.js 的 component + slot插槽 创建面包屑导航组件。"
+        },
+        {
+          "id": 2,
+          "content": "采用 vuex 处理多页面数据之间的传值"
+        },
+        {
+          "id": 3,
+          "content": "使用 node.js 封装 分页导航 模块"
+        },
+        {
+          "id": 4,
+          "content": "引用 axios 进行数据请求，完成页面动态渲染"
+        },
+        {
+          "id": 5,
+          "content": "使用 Element 组件库中部分功能进行快速开发"
+        },
+        {
+          "id": 6,
+          "content": "利用 axios 的 interceptors 设置拦截器，添加公共的token 权限"
+        },
+        {
+          "id": 7,
+          "content": "使用 vue-router 中 beforeEach 实现全局导航守卫，判定token权限，并作出响应"
+        },
+        {
+          "id": 8,
+          "content": "在搜索栏中使用 lodash 进行防抖的处理"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "entryname": "小猪电商平台商城(小程序)",
+      "describe": "小猪电商平台商城，将物流与商务搬到线上，便于整合线下资源，信息数字化留存，可更好的拓宽销售渠道，使得营销更轻松，更精准",
+      "duty": [
+        {
+          "id": 1,
+          "content": "使用 wxml + wxss 进行静态样式修改"
+        },
+        {
+          "id": 2,
+          "content": "构建项目首页，使用 swiper 组件实现首页轮播图功能"
+        },
+        {
+          "id": 3,
+          "content": "结合 vant-Weapp 组件库、flex 实现基本布局"
+        },
+        {
+          "id": 4,
+          "content": "详情页通过 navigator url 参数获取并传递"
+        },
+        {
+          "id": 5,
+          "content": "使用 flex 布局实现页面自适应"
+        },
+        {
+          "id": 6,
+          "content": "构建支付页面，并调用接口实现支付功能"
+        },
+        {
+          "id": 7,
+          "content": "实现对微信请求接口 wx.request()  的二次封装"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "entryname": "咿啦看书(移动H5)",
+      "link": "http://ellabook.cn/bookService1/ellabookH5/index.html#/index/home",
+      "describe": "咿啦看书是一款做儿童读物的app，产品特色是可点触、有声、可交互的动画绘本",
+      "duty": [
+        {
+          "id": 1,
+          "content": "使用 Vant 组件库，进行项目快速开发"
+        },
+        {
+          "id": 2,
+          "content": "使用 HTML + CSS + rem 进行页面移动端自适应布局"
+        },
+        {
+          "id": 3,
+          "content": "使用 axios 模块化包进行数据请求并渲染"
+        },
+        {
+          "id": 4,
+          "content": "使用 keep-alive 处理页面缓存"
+        },
+        {
+          "id": 5,
+          "content": "使用 vuex 数据状态管理，完成多页面数据传值"
+        },
+        {
+          "id": 6,
+          "content": "使用 node.js + ES6扩展语句 封装上拉加载模块"
+        },
+        {
+          "id": 7,
+          "content": "对项目进行首屏优化"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "entryname": "Today促销运营ERP系统(pc)",
+      "describe": "Today促销后台，是总部人员维护门店的信息、商品信息、促销活动、营销活动等",
+      "duty": [
+        {
+          "id": 1,
+          "content": "使用 vue 框架，以及 vue-router 构建单页面应用"
+        },
+        {
+          "id": 2,
+          "content": "采用 vuex 处理多页面数据之间的传值"
+        },
+        {
+          "id": 3,
+          "content": "利用 promise 对 axios 进行异步请求封装，用 async,await 封装数据请求，达到代码便捷"
+        },
+        {
+          "id": 4,
+          "content": "使用 Element 组件库中部分功能进行快速开发"
+        },
+        {
+          "id": 5,
+          "content": "通过 axios 设置 baseURL 的基地址，解决接口代码冗余"
+        },
+        {
+          "id": 6,
+          "content": "启用 vue 的 keep-alive 标签，对组件进行缓存"
+        }
+      ]
+    },
+    {
+      "entryname": "测试1",
+      "describe": "测试1",
+      "id": 4
+    },
+    {
+      "entryname": "测试2",
+      "describe": "测试2",
+      "id": 5
+    }
+  ]
+}

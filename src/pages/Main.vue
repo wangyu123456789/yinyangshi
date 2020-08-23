@@ -68,6 +68,7 @@
       <!-- 内容 -->
       <el-main>
         <!-- 二级出口 -->
+        
         <router-view></router-view>
       </el-main>
     </el-container>
@@ -82,7 +83,17 @@ export default {
       isCollapse: false
     };
   },
+  created(){
+    this.fn()
+  },
   methods: {
+    //获取用户信息
+     async fn(){
+      let res = await this.$axios.get('/assets')
+      // console.log(res.data);
+      localStorage.setItem('res',JSON.stringify(res.data))
+      
+    },
     // 点击按钮切换菜单的折叠和展开
     toggleCollapse() {
       this.isCollapse = !this.isCollapse;
